@@ -1,0 +1,260 @@
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ *   Card Overrides ~ services
+ *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.card--category,
+.card--request,
+.card--service {
+  /*border: 1px solid $gray16;*/
+  border: none;
+  margin-bottom: 0.75rem;
+  padding: 0.6875rem 1rem;
+  transition: background-color 0.3s;
+  @include setBgColorAndHover($white);
+
+  &:focus,
+  &:hover {
+    text-decoration: none;
+  }
+
+  /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   *   Page Title ~ Common
+   *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+  .page-title {
+    flex-direction: row;
+    justify-content: space-between;
+    display: flex;
+    flex: 1 1 100%;
+    h1 {
+      margin-top: 0;
+      color: $tertiary;
+      font-size: 2rem;
+      font-weight: 300;
+      line-height: 3rem;
+      &:first-child {
+        margin-top: 1.5rem;
+      }
+      small,
+      .small {
+        font-size: 1.6rem;
+        font-weight: 300;
+      }
+    }
+    h3 {
+      color: $secondary;
+      font-size: 0.9375rem;
+      font-weight: 700;
+      letter-spacing: 1px;
+      line-height: 1.5rem;
+      a {
+        color: $secondary;
+        font-size: 0.9375rem;
+        font-weight: 700;
+        letter-spacing: 1px;
+        line-height: 1.5rem;
+      }
+    }
+    // Any object to the right of the title
+    > a,
+    > button,
+    > .btn-group,
+    > .page-title__actions {
+      margin-bottom: 1.875rem;
+      // line-height: normal;
+      @media all and (min-width: 0) {
+        // align-self: flex-start;
+      }
+      @media all and (min-width: 768px) {
+        align-self: flex-end;
+        flex-shrink: 0;
+      }
+    }
+    .page-title__actions {
+      @media all and (min-width: 0) {
+        display: flex;
+        justify-content: space-between;
+        .btn {
+          margin-left: 0;
+        }
+      }
+      @media all and (min-width: 768px) {
+        align-self: flex-end;
+        margin-top: 1.5rem;
+        .btn {
+          margin-left: 0.5rem;
+        }
+        .btn-group .btn {
+          margin-left: 0;
+        }
+      }
+    }
+    > a:not(.btn) {
+      color: $gray80;
+      &:hover {
+        color: $tertiary;
+      }
+    }
+    @media all and (min-width: 0) {
+      flex-direction: column;
+    }
+    @media all and (min-width: 768px) {
+      flex-direction: row;
+    }
+  }
+
+  h1 {
+    color: $gray80;
+    display: inline-flex;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 2.125rem;
+    margin: 0;
+  }
+
+  p {
+    color: $gray80;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-bottom: 0;
+    @include word-break;
+  }
+}
+.card--category {
+  p {
+    margin-left: 1.875rem;
+    font-size: 1rem;
+  }
+}
+
+.card-small-text {
+  font-size: 0.55rem;
+  line-height: 0.675rem;
+}
+// Request Card
+.card--request {
+  h1 {
+    color: $gray80;
+    display: inline-flex;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0;
+    line-height: 1rem;
+    padding-bottom: 0.5rem;
+  }
+
+  p {
+    color: $gray80;
+    font-size: 0.9375rem;
+    line-height: 1rem;
+    padding: 0.625rem 0;
+  }
+
+  .card-icon {
+    margin-top: 0;
+  }
+
+  .fa.edit {
+    color: $gray80;
+    line-height: 1.5rem;
+  }
+
+  .meta dl {
+    color: $gray80;
+    font-size: 0.75rem;
+    margin-bottom: 0;
+    line-height: 0.875rem;
+    dd {
+      margin-bottom: 0;
+    }
+  }
+}
+
+dd {
+  font-size: 0.75rem;
+  margin-bottom: 0;
+  line-height: 0.875rem;
+}
+
+.comment-count {
+  float: left;
+  text-align: center;
+  margin-right: 2px;
+}
+
+.card-icon {
+  &--greengrass {
+    background-color: $green-grass;
+  }
+
+  &--sunflower {
+    background-color: $sunflower;
+  }
+}
+//
+
+.status {
+  color: $white;
+  text-align: center;
+  padding: 0.125rem 0.625rem;
+  font-size: 50%;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  align-self: center;
+  border-radius: 0.75rem;
+  margin-left: auto;
+  flex: 0 0 auto;
+
+  &--gray {
+    background-color: $gray80;
+  }
+
+  &--yellow {
+    background-color: $sunflower;
+    color: $gray80;
+  }
+
+  &--green {
+    background-color: $green-grass;
+  }
+
+  &--red {
+    background-color: $red;
+  }
+}
+// Empty State Card
+.card--empty-state {
+  margin-top: 1rem;
+  padding: 1rem;
+  text-align: center;
+  align-items: center;
+  background-color: transparent;
+
+  h1 {
+    font-size: 1.125rem;
+    color: $blue-slate;
+    font-weight: 600;
+    margin-top: 1rem;
+  }
+
+  p {
+    color: $blue-gray;
+    font-size: 0.875rem;
+  }
+}
+
+.selectable-card {
+  background-color: $white;
+  margin-bottom: 20px;
+
+  input {
+    height: 20px;
+    width: 20px;
+    margin: 80px 0;
+  }
+}
+
+.letter__wrapper {
+  width: 90%;
+}

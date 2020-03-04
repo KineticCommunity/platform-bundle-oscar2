@@ -1,0 +1,32 @@
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ *   Pagination ~ Common
+ *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.pagination-bar {
+  text-align: center;
+  padding: 0.5rem 1rem;
+  button {
+    font-size: 1rem;
+  }
+}
+
+.page-item.active .page-link {
+  z-index: 1;
+  color: $white;
+  background-color: $green-dark;
+  border-color: $green-dark;
+  &:hover {
+    color: $white;
+    background-color: $green-dark;
+  }
+}
+.page-link {
+  color: $green-dark;
+  background-color: $white;
+  border-color: $gray10;
+  &:hover {
+    border-color: $gray16;
+    // background-color: $white;
+    box-shadow: 0 1px 2px 0 rgba($gray80, 0.1);
+  }
+}

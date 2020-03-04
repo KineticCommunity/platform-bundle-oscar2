@@ -1,0 +1,136 @@
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ *   Navbar ~ kinops
+ *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.navbar {
+  padding: 0;
+  background-color: $green-medium;
+  border-bottom: 1px solid $gray16;
+  flex-direction: column;
+  align-items: stretch;
+  margin-bottom: -1px;
+  z-index: 1024;
+}
+
+.nav.nav-header {
+  justify-content: space-between;
+  .dropdown {
+    display: flex;
+  }
+}
+
+.nav.nav-header > .nav-item-right {
+  margin-left: auto;
+  display: flex;
+}
+
+.navbar .nav-item {
+  display: flex;
+
+  #header-kapp-dropdown {
+    .nav-link {
+      color: $white;
+      border-right: 1px solid #d5d5d5;
+      max-width: 204px;
+      display: flex;
+      justify-content: space-between;
+      &:hover {
+        color: $primary;
+        box-shadow: 0 1px 3px 0 rgba(60, 64, 67, 0.3),
+          0 2px 12px 3px rgba(60, 64, 67, 0.15);
+      }
+
+      > span {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        text-transform: capitalize;
+      }
+      > .fa {
+        line-height: 1.5rem;
+        margin-left: 0.25rem;
+      }
+    }
+  }
+}
+
+.nav.nav-header .dropdown-menu {
+  border-radius: 0;
+  border: none;
+  // filter: drop-shadow(rgba(0, 0, 0, 0.3) 0 3px 4px);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  margin-top: 0;
+  z-index: 9999;
+  &:after {
+    content: '▲';
+    transform: scaleX(2);
+    color: white;
+    text-shadow: 0 -2px 2px rgba(0, 0, 0, 0.125);
+    left: 10%;
+    margin-left: -10px;
+    position: absolute;
+    top: -16px;
+    z-index: 9998;
+  }
+  &.alerts-menu:after {
+    left: 93%;
+  }
+  &.profile-menu:after {
+    left: 88%;
+  }
+  .dropdown-item {
+    padding: 1rem;
+    line-height: 1;
+    .fa {
+      margin-right: 0.5rem;
+    }
+  }
+}
+
+.navbar .nav-link {
+  font-size: 1rem;
+  color: $white;
+  line-height: 1.5rem;
+  padding: 0.75rem;
+  min-height: 3rem;
+  min-width: 3rem;
+  text-align: center;
+  &:hover {
+    color: $green-dark;
+  }
+
+  .badge {
+    background-color: $yellow;
+    border-radius: 50%;
+    font-size: 0.625rem;
+    height: 1.25rem;
+    width: 1.25rem;
+    line-height: 1.25rem;
+    font-weight: 600;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    padding: 0;
+  }
+}
+
+.navbar .drawer-button {
+  border-right: 1px solid $gray16;
+  .fa {
+    color: $white;
+  }
+  &:hover .fa {
+    color: $green-dark;
+  }
+}
+
+.dropdown-toggle {
+  &::after {
+    border-top-color: $gray80;
+    border-right-color: transparent;
+    border-left-color: transparent;
+  }
+  &.hide-caret::after {
+    display: none;
+  }
+}

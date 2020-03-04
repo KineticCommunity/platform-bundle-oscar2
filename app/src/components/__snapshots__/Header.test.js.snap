@@ -1,0 +1,2740 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> .hasSidebar exists when there is a #toggleSidebarOpen 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Navbar
+    color="faded"
+    expand={false}
+    fixed="top"
+    light={true}
+    tag="nav"
+>
+    <Nav
+        className="nav-header"
+        tag="ul"
+        vertical={false}
+    >
+        <NavItem
+            id="header-sidebar-toggle"
+            tag="li"
+        >
+            <NavLink
+                className="drawer-button"
+                onClick={[Function]}
+                role="button"
+                tabIndex="0"
+                tag="a"
+            >
+                <i
+                    className="fa fa-fw fa-bars"
+                />
+            </NavLink>
+        </NavItem>
+        <NavItem
+            tag="li"
+        >
+            <Connect(KappLinkComponent)
+                className="nav-link"
+                to="/"
+            >
+                <span
+                    className="fa fa-fw fa-book"
+                />
+
+                <I18n>
+                    name
+                </I18n>
+            </Connect(KappLinkComponent)>
+        </NavItem>
+        <div
+            className="nav-item-right"
+        >
+            <Dropdown
+                active={false}
+                addonType={false}
+                direction="down"
+                id="header-kapp-dropdown"
+                inNavbar={false}
+                isOpen={false}
+                nav={false}
+                setActiveFromChild={false}
+                toggle={undefined}
+            >
+                <DropdownToggle
+                    aria-haspopup={true}
+                    color="secondary"
+                    nav={true}
+                    role="button"
+                >
+                    <i
+                        className="fa fa-fw fa-th"
+                    />
+                </DropdownToggle>
+                <DropdownMenu
+                    flip={true}
+                    tag="div"
+                >
+                    <Link
+                        className="dropdown-item"
+                        onClick={undefined}
+                        replace={false}
+                        to="/"
+                    >
+                        <span
+                            className="fa fa-fw fa-home"
+                        />
+                        <I18n>
+                            Home
+                        </I18n>
+                    </Link>
+                    <DropdownItem
+                        divider={true}
+                        tag="button"
+                        toggle={true}
+                    />
+                    <BuildKappLink
+                        kapp={
+                            Object {
+                                "name": "Preferred Name",
+                                "slug": "preferred-slug",
+                              }
+                        }
+                        onClick={undefined}
+                    />
+                </DropdownMenu>
+            </Dropdown>
+            <Connect(withState(withHandlers(Component))) />
+            <Connect(withState(withHandlers(Component))) />
+        </div>
+    </Nav>
+</Navbar>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <Nav
+        className="nav-header"
+        tag="ul"
+        vertical={false}
+>
+        <NavItem
+                id="header-sidebar-toggle"
+                tag="li"
+        >
+                <NavLink
+                        className="drawer-button"
+                        onClick={[Function]}
+                        role="button"
+                        tabIndex="0"
+                        tag="a"
+                >
+                        <i
+                                className="fa fa-fw fa-bars"
+                        />
+                </NavLink>
+        </NavItem>
+        <NavItem
+                tag="li"
+        >
+                <Connect(KappLinkComponent)
+                        className="nav-link"
+                        to="/"
+                >
+                        <span
+                                className="fa fa-fw fa-book"
+                        />
+
+                        <I18n>
+                                name
+                        </I18n>
+                </Connect(KappLinkComponent)>
+        </NavItem>
+        <div
+                className="nav-item-right"
+        >
+                <Dropdown
+                        active={false}
+                        addonType={false}
+                        direction="down"
+                        id="header-kapp-dropdown"
+                        inNavbar={false}
+                        isOpen={false}
+                        nav={false}
+                        setActiveFromChild={false}
+                        toggle={undefined}
+                >
+                        <DropdownToggle
+                                aria-haspopup={true}
+                                color="secondary"
+                                nav={true}
+                                role="button"
+                        >
+                                <i
+                                        className="fa fa-fw fa-th"
+                                />
+                        </DropdownToggle>
+                        <DropdownMenu
+                                flip={true}
+                                tag="div"
+                        >
+                                <Link
+                                        className="dropdown-item"
+                                        onClick={undefined}
+                                        replace={false}
+                                        to="/"
+                                >
+                                        <span
+                                                className="fa fa-fw fa-home"
+                                        />
+                                        <I18n>
+                                                Home
+                                        </I18n>
+                                </Link>
+                                <DropdownItem
+                                        divider={true}
+                                        tag="button"
+                                        toggle={true}
+                                />
+                                <BuildKappLink
+                                        kapp={
+                                                Object {
+                                                        "name": "Preferred Name",
+                                                        "slug": "preferred-slug",
+                                                      }
+                                        }
+                                        onClick={undefined}
+                                />
+                        </DropdownMenu>
+                </Dropdown>
+                <Connect(withState(withHandlers(Component))) />
+                <Connect(withState(withHandlers(Component))) />
+        </div>
+</Nav>,
+      "className": "navbar navbar-light bg-faded fixed-top",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <NavItem
+            id="header-sidebar-toggle"
+            tag="li"
+>
+            <NavLink
+                        className="drawer-button"
+                        onClick={[Function]}
+                        role="button"
+                        tabIndex="0"
+                        tag="a"
+            >
+                        <i
+                                    className="fa fa-fw fa-bars"
+                        />
+            </NavLink>
+</NavItem>,
+          <NavItem
+            tag="li"
+>
+            <Connect(KappLinkComponent)
+                        className="nav-link"
+                        to="/"
+            >
+                        <span
+                                    className="fa fa-fw fa-book"
+                        />
+
+                        <I18n>
+                                    name
+                        </I18n>
+            </Connect(KappLinkComponent)>
+</NavItem>,
+          <div
+            className="nav-item-right"
+>
+            <Dropdown
+                        active={false}
+                        addonType={false}
+                        direction="down"
+                        id="header-kapp-dropdown"
+                        inNavbar={false}
+                        isOpen={false}
+                        nav={false}
+                        setActiveFromChild={false}
+                        toggle={undefined}
+            >
+                        <DropdownToggle
+                                    aria-haspopup={true}
+                                    color="secondary"
+                                    nav={true}
+                                    role="button"
+                        >
+                                    <i
+                                                className="fa fa-fw fa-th"
+                                    />
+                        </DropdownToggle>
+                        <DropdownMenu
+                                    flip={true}
+                                    tag="div"
+                        >
+                                    <Link
+                                                className="dropdown-item"
+                                                onClick={undefined}
+                                                replace={false}
+                                                to="/"
+                                    >
+                                                <span
+                                                            className="fa fa-fw fa-home"
+                                                />
+                                                <I18n>
+                                                            Home
+                                                </I18n>
+                                    </Link>
+                                    <DropdownItem
+                                                divider={true}
+                                                tag="button"
+                                                toggle={true}
+                                    />
+                                    <BuildKappLink
+                                                kapp={
+                                                            Object {
+                                                                        "name": "Preferred Name",
+                                                                        "slug": "preferred-slug",
+                                                                      }
+                                                }
+                                                onClick={undefined}
+                                    />
+                        </DropdownMenu>
+            </Dropdown>
+            <Connect(withState(withHandlers(Component))) />
+            <Connect(withState(withHandlers(Component))) />
+</div>,
+        ],
+        "className": "nav-header",
+        "tag": "ul",
+        "vertical": false,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": <NavLink
+              className="drawer-button"
+              onClick={[Function]}
+              role="button"
+              tabIndex="0"
+              tag="a"
+>
+              <i
+                            className="fa fa-fw fa-bars"
+              />
+</NavLink>,
+            "id": "header-sidebar-toggle",
+            "tag": "li",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <i
+                className="fa fa-fw fa-bars"
+/>,
+              "className": "drawer-button",
+              "onClick": [Function],
+              "role": "button",
+              "tabIndex": "0",
+              "tag": "a",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "fa fa-fw fa-bars",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "i",
+            },
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": <Connect(KappLinkComponent)
+              className="nav-link"
+              to="/"
+>
+              <span
+                            className="fa fa-fw fa-book"
+              />
+
+              <I18n>
+                            name
+              </I18n>
+</Connect(KappLinkComponent)>,
+            "tag": "li",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <span
+                  className="fa fa-fw fa-book"
+/>,
+                " ",
+                <I18n>
+                  name
+</I18n>,
+              ],
+              "className": "nav-link",
+              "to": "/",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "fa fa-fw fa-book",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "span",
+              },
+              " ",
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "name",
+                },
+                "ref": null,
+                "rendered": "name",
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <Dropdown
+                active={false}
+                addonType={false}
+                direction="down"
+                id="header-kapp-dropdown"
+                inNavbar={false}
+                isOpen={false}
+                nav={false}
+                setActiveFromChild={false}
+                toggle={undefined}
+>
+                <DropdownToggle
+                                aria-haspopup={true}
+                                color="secondary"
+                                nav={true}
+                                role="button"
+                >
+                                <i
+                                                className="fa fa-fw fa-th"
+                                />
+                </DropdownToggle>
+                <DropdownMenu
+                                flip={true}
+                                tag="div"
+                >
+                                <Link
+                                                className="dropdown-item"
+                                                onClick={undefined}
+                                                replace={false}
+                                                to="/"
+                                >
+                                                <span
+                                                                className="fa fa-fw fa-home"
+                                                />
+                                                <I18n>
+                                                                Home
+                                                </I18n>
+                                </Link>
+                                <DropdownItem
+                                                divider={true}
+                                                tag="button"
+                                                toggle={true}
+                                />
+                                <BuildKappLink
+                                                kapp={
+                                                                Object {
+                                                                                "name": "Preferred Name",
+                                                                                "slug": "preferred-slug",
+                                                                              }
+                                                }
+                                                onClick={undefined}
+                                />
+                </DropdownMenu>
+</Dropdown>,
+              <Connect(withState(withHandlers(Component))) />,
+              <Connect(withState(withHandlers(Component))) />,
+            ],
+            "className": "nav-item-right",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "active": false,
+                "addonType": false,
+                "children": Array [
+                  <DropdownToggle
+                    aria-haspopup={true}
+                    color="secondary"
+                    nav={true}
+                    role="button"
+>
+                    <i
+                                        className="fa fa-fw fa-th"
+                    />
+</DropdownToggle>,
+                  <DropdownMenu
+                    flip={true}
+                    tag="div"
+>
+                    <Link
+                                        className="dropdown-item"
+                                        onClick={undefined}
+                                        replace={false}
+                                        to="/"
+                    >
+                                        <span
+                                                            className="fa fa-fw fa-home"
+                                        />
+                                        <I18n>
+                                                            Home
+                                        </I18n>
+                    </Link>
+                    <DropdownItem
+                                        divider={true}
+                                        tag="button"
+                                        toggle={true}
+                    />
+                    <BuildKappLink
+                                        kapp={
+                                                            Object {
+                                                                                "name": "Preferred Name",
+                                                                                "slug": "preferred-slug",
+                                                                              }
+                                        }
+                                        onClick={undefined}
+                    />
+</DropdownMenu>,
+                ],
+                "direction": "down",
+                "id": "header-kapp-dropdown",
+                "inNavbar": false,
+                "isOpen": false,
+                "nav": false,
+                "setActiveFromChild": false,
+                "toggle": undefined,
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "aria-haspopup": true,
+                    "children": <i
+                      className="fa fa-fw fa-th"
+/>,
+                    "color": "secondary",
+                    "nav": true,
+                    "role": "button",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "className": "fa fa-fw fa-th",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "i",
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "children": Array [
+                      <Link
+                        className="dropdown-item"
+                        onClick={undefined}
+                        replace={false}
+                        to="/"
+>
+                        <span
+                                                className="fa fa-fw fa-home"
+                        />
+                        <I18n>
+                                                Home
+                        </I18n>
+</Link>,
+                      <DropdownItem
+                        divider={true}
+                        tag="button"
+                        toggle={true}
+/>,
+                      Array [
+                        <BuildKappLink
+                          kapp={
+                                                    Object {
+                                                                              "name": "Preferred Name",
+                                                                              "slug": "preferred-slug",
+                                                                            }
+                          }
+                          onClick={undefined}
+/>,
+                      ],
+                      Array [],
+                    ],
+                    "flip": true,
+                    "tag": "div",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": Array [
+                          <span
+                            className="fa fa-fw fa-home"
+/>,
+                          <I18n>
+                            Home
+</I18n>,
+                        ],
+                        "className": "dropdown-item",
+                        "onClick": undefined,
+                        "replace": false,
+                        "to": "/",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "className": "fa fa-fw fa-home",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "span",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "class",
+                          "props": Object {
+                            "children": "Home",
+                          },
+                          "ref": null,
+                          "rendered": "Home",
+                          "type": [Function],
+                        },
+                      ],
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "divider": true,
+                        "tag": "button",
+                        "toggle": true,
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "preferred-slug",
+                      "nodeType": "function",
+                      "props": Object {
+                        "kapp": Object {
+                          "name": "Preferred Name",
+                          "slug": "preferred-slug",
+                        },
+                        "onClick": undefined,
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                  ],
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": [Function],
+    },
+    "type": "nav",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <Nav
+          className="nav-header"
+          tag="ul"
+          vertical={false}
+>
+          <NavItem
+                    id="header-sidebar-toggle"
+                    tag="li"
+          >
+                    <NavLink
+                              className="drawer-button"
+                              onClick={[Function]}
+                              role="button"
+                              tabIndex="0"
+                              tag="a"
+                    >
+                              <i
+                                        className="fa fa-fw fa-bars"
+                              />
+                    </NavLink>
+          </NavItem>
+          <NavItem
+                    tag="li"
+          >
+                    <Connect(KappLinkComponent)
+                              className="nav-link"
+                              to="/"
+                    >
+                              <span
+                                        className="fa fa-fw fa-book"
+                              />
+
+                              <I18n>
+                                        name
+                              </I18n>
+                    </Connect(KappLinkComponent)>
+          </NavItem>
+          <div
+                    className="nav-item-right"
+          >
+                    <Dropdown
+                              active={false}
+                              addonType={false}
+                              direction="down"
+                              id="header-kapp-dropdown"
+                              inNavbar={false}
+                              isOpen={false}
+                              nav={false}
+                              setActiveFromChild={false}
+                              toggle={undefined}
+                    >
+                              <DropdownToggle
+                                        aria-haspopup={true}
+                                        color="secondary"
+                                        nav={true}
+                                        role="button"
+                              >
+                                        <i
+                                                  className="fa fa-fw fa-th"
+                                        />
+                              </DropdownToggle>
+                              <DropdownMenu
+                                        flip={true}
+                                        tag="div"
+                              >
+                                        <Link
+                                                  className="dropdown-item"
+                                                  onClick={undefined}
+                                                  replace={false}
+                                                  to="/"
+                                        >
+                                                  <span
+                                                            className="fa fa-fw fa-home"
+                                                  />
+                                                  <I18n>
+                                                            Home
+                                                  </I18n>
+                                        </Link>
+                                        <DropdownItem
+                                                  divider={true}
+                                                  tag="button"
+                                                  toggle={true}
+                                        />
+                                        <BuildKappLink
+                                                  kapp={
+                                                            Object {
+                                                                      "name": "Preferred Name",
+                                                                      "slug": "preferred-slug",
+                                                                    }
+                                                  }
+                                                  onClick={undefined}
+                                        />
+                              </DropdownMenu>
+                    </Dropdown>
+                    <Connect(withState(withHandlers(Component))) />
+                    <Connect(withState(withHandlers(Component))) />
+          </div>
+</Nav>,
+        "className": "navbar navbar-light bg-faded fixed-top",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <NavItem
+              id="header-sidebar-toggle"
+              tag="li"
+>
+              <NavLink
+                            className="drawer-button"
+                            onClick={[Function]}
+                            role="button"
+                            tabIndex="0"
+                            tag="a"
+              >
+                            <i
+                                          className="fa fa-fw fa-bars"
+                            />
+              </NavLink>
+</NavItem>,
+            <NavItem
+              tag="li"
+>
+              <Connect(KappLinkComponent)
+                            className="nav-link"
+                            to="/"
+              >
+                            <span
+                                          className="fa fa-fw fa-book"
+                            />
+
+                            <I18n>
+                                          name
+                            </I18n>
+              </Connect(KappLinkComponent)>
+</NavItem>,
+            <div
+              className="nav-item-right"
+>
+              <Dropdown
+                            active={false}
+                            addonType={false}
+                            direction="down"
+                            id="header-kapp-dropdown"
+                            inNavbar={false}
+                            isOpen={false}
+                            nav={false}
+                            setActiveFromChild={false}
+                            toggle={undefined}
+              >
+                            <DropdownToggle
+                                          aria-haspopup={true}
+                                          color="secondary"
+                                          nav={true}
+                                          role="button"
+                            >
+                                          <i
+                                                        className="fa fa-fw fa-th"
+                                          />
+                            </DropdownToggle>
+                            <DropdownMenu
+                                          flip={true}
+                                          tag="div"
+                            >
+                                          <Link
+                                                        className="dropdown-item"
+                                                        onClick={undefined}
+                                                        replace={false}
+                                                        to="/"
+                                          >
+                                                        <span
+                                                                      className="fa fa-fw fa-home"
+                                                        />
+                                                        <I18n>
+                                                                      Home
+                                                        </I18n>
+                                          </Link>
+                                          <DropdownItem
+                                                        divider={true}
+                                                        tag="button"
+                                                        toggle={true}
+                                          />
+                                          <BuildKappLink
+                                                        kapp={
+                                                                      Object {
+                                                                                    "name": "Preferred Name",
+                                                                                    "slug": "preferred-slug",
+                                                                                  }
+                                                        }
+                                                        onClick={undefined}
+                                          />
+                            </DropdownMenu>
+              </Dropdown>
+              <Connect(withState(withHandlers(Component))) />
+              <Connect(withState(withHandlers(Component))) />
+</div>,
+          ],
+          "className": "nav-header",
+          "tag": "ul",
+          "vertical": false,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": <NavLink
+                className="drawer-button"
+                onClick={[Function]}
+                role="button"
+                tabIndex="0"
+                tag="a"
+>
+                <i
+                                className="fa fa-fw fa-bars"
+                />
+</NavLink>,
+              "id": "header-sidebar-toggle",
+              "tag": "li",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <i
+                  className="fa fa-fw fa-bars"
+/>,
+                "className": "drawer-button",
+                "onClick": [Function],
+                "role": "button",
+                "tabIndex": "0",
+                "tag": "a",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "fa fa-fw fa-bars",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "i",
+              },
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": <Connect(KappLinkComponent)
+                className="nav-link"
+                to="/"
+>
+                <span
+                                className="fa fa-fw fa-book"
+                />
+
+                <I18n>
+                                name
+                </I18n>
+</Connect(KappLinkComponent)>,
+              "tag": "li",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <span
+                    className="fa fa-fw fa-book"
+/>,
+                  " ",
+                  <I18n>
+                    name
+</I18n>,
+                ],
+                "className": "nav-link",
+                "to": "/",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "fa fa-fw fa-book",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "span",
+                },
+                " ",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "name",
+                  },
+                  "ref": null,
+                  "rendered": "name",
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <Dropdown
+                  active={false}
+                  addonType={false}
+                  direction="down"
+                  id="header-kapp-dropdown"
+                  inNavbar={false}
+                  isOpen={false}
+                  nav={false}
+                  setActiveFromChild={false}
+                  toggle={undefined}
+>
+                  <DropdownToggle
+                                    aria-haspopup={true}
+                                    color="secondary"
+                                    nav={true}
+                                    role="button"
+                  >
+                                    <i
+                                                      className="fa fa-fw fa-th"
+                                    />
+                  </DropdownToggle>
+                  <DropdownMenu
+                                    flip={true}
+                                    tag="div"
+                  >
+                                    <Link
+                                                      className="dropdown-item"
+                                                      onClick={undefined}
+                                                      replace={false}
+                                                      to="/"
+                                    >
+                                                      <span
+                                                                        className="fa fa-fw fa-home"
+                                                      />
+                                                      <I18n>
+                                                                        Home
+                                                      </I18n>
+                                    </Link>
+                                    <DropdownItem
+                                                      divider={true}
+                                                      tag="button"
+                                                      toggle={true}
+                                    />
+                                    <BuildKappLink
+                                                      kapp={
+                                                                        Object {
+                                                                                          "name": "Preferred Name",
+                                                                                          "slug": "preferred-slug",
+                                                                                        }
+                                                      }
+                                                      onClick={undefined}
+                                    />
+                  </DropdownMenu>
+</Dropdown>,
+                <Connect(withState(withHandlers(Component))) />,
+                <Connect(withState(withHandlers(Component))) />,
+              ],
+              "className": "nav-item-right",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "active": false,
+                  "addonType": false,
+                  "children": Array [
+                    <DropdownToggle
+                      aria-haspopup={true}
+                      color="secondary"
+                      nav={true}
+                      role="button"
+>
+                      <i
+                                            className="fa fa-fw fa-th"
+                      />
+</DropdownToggle>,
+                    <DropdownMenu
+                      flip={true}
+                      tag="div"
+>
+                      <Link
+                                            className="dropdown-item"
+                                            onClick={undefined}
+                                            replace={false}
+                                            to="/"
+                      >
+                                            <span
+                                                                  className="fa fa-fw fa-home"
+                                            />
+                                            <I18n>
+                                                                  Home
+                                            </I18n>
+                      </Link>
+                      <DropdownItem
+                                            divider={true}
+                                            tag="button"
+                                            toggle={true}
+                      />
+                      <BuildKappLink
+                                            kapp={
+                                                                  Object {
+                                                                                        "name": "Preferred Name",
+                                                                                        "slug": "preferred-slug",
+                                                                                      }
+                                            }
+                                            onClick={undefined}
+                      />
+</DropdownMenu>,
+                  ],
+                  "direction": "down",
+                  "id": "header-kapp-dropdown",
+                  "inNavbar": false,
+                  "isOpen": false,
+                  "nav": false,
+                  "setActiveFromChild": false,
+                  "toggle": undefined,
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "aria-haspopup": true,
+                      "children": <i
+                        className="fa fa-fw fa-th"
+/>,
+                      "color": "secondary",
+                      "nav": true,
+                      "role": "button",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "className": "fa fa-fw fa-th",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "i",
+                    },
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "children": Array [
+                        <Link
+                          className="dropdown-item"
+                          onClick={undefined}
+                          replace={false}
+                          to="/"
+>
+                          <span
+                                                    className="fa fa-fw fa-home"
+                          />
+                          <I18n>
+                                                    Home
+                          </I18n>
+</Link>,
+                        <DropdownItem
+                          divider={true}
+                          tag="button"
+                          toggle={true}
+/>,
+                        Array [
+                          <BuildKappLink
+                            kapp={
+                                                        Object {
+                                                                                    "name": "Preferred Name",
+                                                                                    "slug": "preferred-slug",
+                                                                                  }
+                            }
+                            onClick={undefined}
+/>,
+                        ],
+                        Array [],
+                      ],
+                      "flip": true,
+                      "tag": "div",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "children": Array [
+                            <span
+                              className="fa fa-fw fa-home"
+/>,
+                            <I18n>
+                              Home
+</I18n>,
+                          ],
+                          "className": "dropdown-item",
+                          "onClick": undefined,
+                          "replace": false,
+                          "to": "/",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "className": "fa fa-fw fa-home",
+                            },
+                            "ref": null,
+                            "rendered": null,
+                            "type": "span",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "class",
+                            "props": Object {
+                              "children": "Home",
+                            },
+                            "ref": null,
+                            "rendered": "Home",
+                            "type": [Function],
+                          },
+                        ],
+                        "type": [Function],
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "divider": true,
+                          "tag": "button",
+                          "toggle": true,
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      Object {
+                        "instance": null,
+                        "key": "preferred-slug",
+                        "nodeType": "function",
+                        "props": Object {
+                          "kapp": Object {
+                            "name": "Preferred Name",
+                            "slug": "preferred-slug",
+                          },
+                          "onClick": undefined,
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                    ],
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": [Function],
+      },
+      "type": "nav",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`<Header /> snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Unknown
+    additionalKapps={Array []}
+    alerts={
+        Immutable.List [
+        ]
+    }
+    currentKapp={
+        Object {
+            "name": "name",
+          }
+    }
+    fetchAlertsRequest={[Function]}
+    hasSidebar={true}
+    isGuest={false}
+    openFeedbackForm={[Function]}
+    openHelpForm={[Function]}
+    openInviteOthersForm={[Function]}
+    openKitchenSinkForm={[Function]}
+    predefinedKapps={
+        Array [
+            Object {
+              "name": "Preferred Name",
+              "slug": "preferred-slug",
+            },
+          ]
+    }
+    profile={Object {}}
+    toggleSidebarOpen={[Function]}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": <Nav
+        className="nav-header"
+        tag="ul"
+        vertical={false}
+>
+        <NavItem
+                id="header-sidebar-toggle"
+                tag="li"
+        >
+                <NavLink
+                        className="drawer-button"
+                        onClick={[Function]}
+                        role="button"
+                        tabIndex="0"
+                        tag="a"
+                >
+                        <i
+                                className="fa fa-fw fa-bars"
+                        />
+                </NavLink>
+        </NavItem>
+        <NavItem
+                tag="li"
+        >
+                <Connect(KappLinkComponent)
+                        className="nav-link"
+                        to="/"
+                >
+                        <span
+                                className="fa fa-fw fa-book"
+                        />
+
+                        <I18n>
+                                name
+                        </I18n>
+                </Connect(KappLinkComponent)>
+        </NavItem>
+        <div
+                className="nav-item-right"
+        >
+                <Dropdown
+                        active={false}
+                        addonType={false}
+                        direction="down"
+                        id="header-kapp-dropdown"
+                        inNavbar={false}
+                        isOpen={false}
+                        nav={false}
+                        setActiveFromChild={false}
+                        toggle={undefined}
+                >
+                        <DropdownToggle
+                                aria-haspopup={true}
+                                color="secondary"
+                                nav={true}
+                                role="button"
+                        >
+                                <i
+                                        className="fa fa-fw fa-th"
+                                />
+                        </DropdownToggle>
+                        <DropdownMenu
+                                flip={true}
+                                tag="div"
+                        >
+                                <Link
+                                        className="dropdown-item"
+                                        onClick={undefined}
+                                        replace={false}
+                                        to="/"
+                                >
+                                        <span
+                                                className="fa fa-fw fa-home"
+                                        />
+                                        <I18n>
+                                                Home
+                                        </I18n>
+                                </Link>
+                                <DropdownItem
+                                        divider={true}
+                                        tag="button"
+                                        toggle={true}
+                                />
+                                <BuildKappLink
+                                        kapp={
+                                                Object {
+                                                        "name": "Preferred Name",
+                                                        "slug": "preferred-slug",
+                                                      }
+                                        }
+                                        onClick={undefined}
+                                />
+                        </DropdownMenu>
+                </Dropdown>
+                <Connect(withState(withHandlers(Component))) />
+                <Connect(withState(withHandlers(Component))) />
+        </div>
+</Nav>,
+      "color": "faded",
+      "expand": false,
+      "fixed": "top",
+      "light": true,
+      "tag": "nav",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <NavItem
+            id="header-sidebar-toggle"
+            tag="li"
+>
+            <NavLink
+                        className="drawer-button"
+                        onClick={[Function]}
+                        role="button"
+                        tabIndex="0"
+                        tag="a"
+            >
+                        <i
+                                    className="fa fa-fw fa-bars"
+                        />
+            </NavLink>
+</NavItem>,
+          <NavItem
+            tag="li"
+>
+            <Connect(KappLinkComponent)
+                        className="nav-link"
+                        to="/"
+            >
+                        <span
+                                    className="fa fa-fw fa-book"
+                        />
+
+                        <I18n>
+                                    name
+                        </I18n>
+            </Connect(KappLinkComponent)>
+</NavItem>,
+          <div
+            className="nav-item-right"
+>
+            <Dropdown
+                        active={false}
+                        addonType={false}
+                        direction="down"
+                        id="header-kapp-dropdown"
+                        inNavbar={false}
+                        isOpen={false}
+                        nav={false}
+                        setActiveFromChild={false}
+                        toggle={undefined}
+            >
+                        <DropdownToggle
+                                    aria-haspopup={true}
+                                    color="secondary"
+                                    nav={true}
+                                    role="button"
+                        >
+                                    <i
+                                                className="fa fa-fw fa-th"
+                                    />
+                        </DropdownToggle>
+                        <DropdownMenu
+                                    flip={true}
+                                    tag="div"
+                        >
+                                    <Link
+                                                className="dropdown-item"
+                                                onClick={undefined}
+                                                replace={false}
+                                                to="/"
+                                    >
+                                                <span
+                                                            className="fa fa-fw fa-home"
+                                                />
+                                                <I18n>
+                                                            Home
+                                                </I18n>
+                                    </Link>
+                                    <DropdownItem
+                                                divider={true}
+                                                tag="button"
+                                                toggle={true}
+                                    />
+                                    <BuildKappLink
+                                                kapp={
+                                                            Object {
+                                                                        "name": "Preferred Name",
+                                                                        "slug": "preferred-slug",
+                                                                      }
+                                                }
+                                                onClick={undefined}
+                                    />
+                        </DropdownMenu>
+            </Dropdown>
+            <Connect(withState(withHandlers(Component))) />
+            <Connect(withState(withHandlers(Component))) />
+</div>,
+        ],
+        "className": "nav-header",
+        "tag": "ul",
+        "vertical": false,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": <NavLink
+              className="drawer-button"
+              onClick={[Function]}
+              role="button"
+              tabIndex="0"
+              tag="a"
+>
+              <i
+                            className="fa fa-fw fa-bars"
+              />
+</NavLink>,
+            "id": "header-sidebar-toggle",
+            "tag": "li",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <i
+                className="fa fa-fw fa-bars"
+/>,
+              "className": "drawer-button",
+              "onClick": [Function],
+              "role": "button",
+              "tabIndex": "0",
+              "tag": "a",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "fa fa-fw fa-bars",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "i",
+            },
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": <Connect(KappLinkComponent)
+              className="nav-link"
+              to="/"
+>
+              <span
+                            className="fa fa-fw fa-book"
+              />
+
+              <I18n>
+                            name
+              </I18n>
+</Connect(KappLinkComponent)>,
+            "tag": "li",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <span
+                  className="fa fa-fw fa-book"
+/>,
+                " ",
+                <I18n>
+                  name
+</I18n>,
+              ],
+              "className": "nav-link",
+              "to": "/",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "fa fa-fw fa-book",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "span",
+              },
+              " ",
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "name",
+                },
+                "ref": null,
+                "rendered": "name",
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <Dropdown
+                active={false}
+                addonType={false}
+                direction="down"
+                id="header-kapp-dropdown"
+                inNavbar={false}
+                isOpen={false}
+                nav={false}
+                setActiveFromChild={false}
+                toggle={undefined}
+>
+                <DropdownToggle
+                                aria-haspopup={true}
+                                color="secondary"
+                                nav={true}
+                                role="button"
+                >
+                                <i
+                                                className="fa fa-fw fa-th"
+                                />
+                </DropdownToggle>
+                <DropdownMenu
+                                flip={true}
+                                tag="div"
+                >
+                                <Link
+                                                className="dropdown-item"
+                                                onClick={undefined}
+                                                replace={false}
+                                                to="/"
+                                >
+                                                <span
+                                                                className="fa fa-fw fa-home"
+                                                />
+                                                <I18n>
+                                                                Home
+                                                </I18n>
+                                </Link>
+                                <DropdownItem
+                                                divider={true}
+                                                tag="button"
+                                                toggle={true}
+                                />
+                                <BuildKappLink
+                                                kapp={
+                                                                Object {
+                                                                                "name": "Preferred Name",
+                                                                                "slug": "preferred-slug",
+                                                                              }
+                                                }
+                                                onClick={undefined}
+                                />
+                </DropdownMenu>
+</Dropdown>,
+              <Connect(withState(withHandlers(Component))) />,
+              <Connect(withState(withHandlers(Component))) />,
+            ],
+            "className": "nav-item-right",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "active": false,
+                "addonType": false,
+                "children": Array [
+                  <DropdownToggle
+                    aria-haspopup={true}
+                    color="secondary"
+                    nav={true}
+                    role="button"
+>
+                    <i
+                                        className="fa fa-fw fa-th"
+                    />
+</DropdownToggle>,
+                  <DropdownMenu
+                    flip={true}
+                    tag="div"
+>
+                    <Link
+                                        className="dropdown-item"
+                                        onClick={undefined}
+                                        replace={false}
+                                        to="/"
+                    >
+                                        <span
+                                                            className="fa fa-fw fa-home"
+                                        />
+                                        <I18n>
+                                                            Home
+                                        </I18n>
+                    </Link>
+                    <DropdownItem
+                                        divider={true}
+                                        tag="button"
+                                        toggle={true}
+                    />
+                    <BuildKappLink
+                                        kapp={
+                                                            Object {
+                                                                                "name": "Preferred Name",
+                                                                                "slug": "preferred-slug",
+                                                                              }
+                                        }
+                                        onClick={undefined}
+                    />
+</DropdownMenu>,
+                ],
+                "direction": "down",
+                "id": "header-kapp-dropdown",
+                "inNavbar": false,
+                "isOpen": false,
+                "nav": false,
+                "setActiveFromChild": false,
+                "toggle": undefined,
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "aria-haspopup": true,
+                    "children": <i
+                      className="fa fa-fw fa-th"
+/>,
+                    "color": "secondary",
+                    "nav": true,
+                    "role": "button",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "className": "fa fa-fw fa-th",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "i",
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "children": Array [
+                      <Link
+                        className="dropdown-item"
+                        onClick={undefined}
+                        replace={false}
+                        to="/"
+>
+                        <span
+                                                className="fa fa-fw fa-home"
+                        />
+                        <I18n>
+                                                Home
+                        </I18n>
+</Link>,
+                      <DropdownItem
+                        divider={true}
+                        tag="button"
+                        toggle={true}
+/>,
+                      Array [
+                        <BuildKappLink
+                          kapp={
+                                                    Object {
+                                                                              "name": "Preferred Name",
+                                                                              "slug": "preferred-slug",
+                                                                            }
+                          }
+                          onClick={undefined}
+/>,
+                      ],
+                      Array [],
+                    ],
+                    "flip": true,
+                    "tag": "div",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": Array [
+                          <span
+                            className="fa fa-fw fa-home"
+/>,
+                          <I18n>
+                            Home
+</I18n>,
+                        ],
+                        "className": "dropdown-item",
+                        "onClick": undefined,
+                        "replace": false,
+                        "to": "/",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "className": "fa fa-fw fa-home",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "span",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "class",
+                          "props": Object {
+                            "children": "Home",
+                          },
+                          "ref": null,
+                          "rendered": "Home",
+                          "type": [Function],
+                        },
+                      ],
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "divider": true,
+                        "tag": "button",
+                        "toggle": true,
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "preferred-slug",
+                      "nodeType": "function",
+                      "props": Object {
+                        "kapp": Object {
+                          "name": "Preferred Name",
+                          "slug": "preferred-slug",
+                        },
+                        "onClick": undefined,
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                  ],
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": <Nav
+          className="nav-header"
+          tag="ul"
+          vertical={false}
+>
+          <NavItem
+                    id="header-sidebar-toggle"
+                    tag="li"
+          >
+                    <NavLink
+                              className="drawer-button"
+                              onClick={[Function]}
+                              role="button"
+                              tabIndex="0"
+                              tag="a"
+                    >
+                              <i
+                                        className="fa fa-fw fa-bars"
+                              />
+                    </NavLink>
+          </NavItem>
+          <NavItem
+                    tag="li"
+          >
+                    <Connect(KappLinkComponent)
+                              className="nav-link"
+                              to="/"
+                    >
+                              <span
+                                        className="fa fa-fw fa-book"
+                              />
+
+                              <I18n>
+                                        name
+                              </I18n>
+                    </Connect(KappLinkComponent)>
+          </NavItem>
+          <div
+                    className="nav-item-right"
+          >
+                    <Dropdown
+                              active={false}
+                              addonType={false}
+                              direction="down"
+                              id="header-kapp-dropdown"
+                              inNavbar={false}
+                              isOpen={false}
+                              nav={false}
+                              setActiveFromChild={false}
+                              toggle={undefined}
+                    >
+                              <DropdownToggle
+                                        aria-haspopup={true}
+                                        color="secondary"
+                                        nav={true}
+                                        role="button"
+                              >
+                                        <i
+                                                  className="fa fa-fw fa-th"
+                                        />
+                              </DropdownToggle>
+                              <DropdownMenu
+                                        flip={true}
+                                        tag="div"
+                              >
+                                        <Link
+                                                  className="dropdown-item"
+                                                  onClick={undefined}
+                                                  replace={false}
+                                                  to="/"
+                                        >
+                                                  <span
+                                                            className="fa fa-fw fa-home"
+                                                  />
+                                                  <I18n>
+                                                            Home
+                                                  </I18n>
+                                        </Link>
+                                        <DropdownItem
+                                                  divider={true}
+                                                  tag="button"
+                                                  toggle={true}
+                                        />
+                                        <BuildKappLink
+                                                  kapp={
+                                                            Object {
+                                                                      "name": "Preferred Name",
+                                                                      "slug": "preferred-slug",
+                                                                    }
+                                                  }
+                                                  onClick={undefined}
+                                        />
+                              </DropdownMenu>
+                    </Dropdown>
+                    <Connect(withState(withHandlers(Component))) />
+                    <Connect(withState(withHandlers(Component))) />
+          </div>
+</Nav>,
+        "color": "faded",
+        "expand": false,
+        "fixed": "top",
+        "light": true,
+        "tag": "nav",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <NavItem
+              id="header-sidebar-toggle"
+              tag="li"
+>
+              <NavLink
+                            className="drawer-button"
+                            onClick={[Function]}
+                            role="button"
+                            tabIndex="0"
+                            tag="a"
+              >
+                            <i
+                                          className="fa fa-fw fa-bars"
+                            />
+              </NavLink>
+</NavItem>,
+            <NavItem
+              tag="li"
+>
+              <Connect(KappLinkComponent)
+                            className="nav-link"
+                            to="/"
+              >
+                            <span
+                                          className="fa fa-fw fa-book"
+                            />
+
+                            <I18n>
+                                          name
+                            </I18n>
+              </Connect(KappLinkComponent)>
+</NavItem>,
+            <div
+              className="nav-item-right"
+>
+              <Dropdown
+                            active={false}
+                            addonType={false}
+                            direction="down"
+                            id="header-kapp-dropdown"
+                            inNavbar={false}
+                            isOpen={false}
+                            nav={false}
+                            setActiveFromChild={false}
+                            toggle={undefined}
+              >
+                            <DropdownToggle
+                                          aria-haspopup={true}
+                                          color="secondary"
+                                          nav={true}
+                                          role="button"
+                            >
+                                          <i
+                                                        className="fa fa-fw fa-th"
+                                          />
+                            </DropdownToggle>
+                            <DropdownMenu
+                                          flip={true}
+                                          tag="div"
+                            >
+                                          <Link
+                                                        className="dropdown-item"
+                                                        onClick={undefined}
+                                                        replace={false}
+                                                        to="/"
+                                          >
+                                                        <span
+                                                                      className="fa fa-fw fa-home"
+                                                        />
+                                                        <I18n>
+                                                                      Home
+                                                        </I18n>
+                                          </Link>
+                                          <DropdownItem
+                                                        divider={true}
+                                                        tag="button"
+                                                        toggle={true}
+                                          />
+                                          <BuildKappLink
+                                                        kapp={
+                                                                      Object {
+                                                                                    "name": "Preferred Name",
+                                                                                    "slug": "preferred-slug",
+                                                                                  }
+                                                        }
+                                                        onClick={undefined}
+                                          />
+                            </DropdownMenu>
+              </Dropdown>
+              <Connect(withState(withHandlers(Component))) />
+              <Connect(withState(withHandlers(Component))) />
+</div>,
+          ],
+          "className": "nav-header",
+          "tag": "ul",
+          "vertical": false,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": <NavLink
+                className="drawer-button"
+                onClick={[Function]}
+                role="button"
+                tabIndex="0"
+                tag="a"
+>
+                <i
+                                className="fa fa-fw fa-bars"
+                />
+</NavLink>,
+              "id": "header-sidebar-toggle",
+              "tag": "li",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <i
+                  className="fa fa-fw fa-bars"
+/>,
+                "className": "drawer-button",
+                "onClick": [Function],
+                "role": "button",
+                "tabIndex": "0",
+                "tag": "a",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "fa fa-fw fa-bars",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "i",
+              },
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": <Connect(KappLinkComponent)
+                className="nav-link"
+                to="/"
+>
+                <span
+                                className="fa fa-fw fa-book"
+                />
+
+                <I18n>
+                                name
+                </I18n>
+</Connect(KappLinkComponent)>,
+              "tag": "li",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <span
+                    className="fa fa-fw fa-book"
+/>,
+                  " ",
+                  <I18n>
+                    name
+</I18n>,
+                ],
+                "className": "nav-link",
+                "to": "/",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "fa fa-fw fa-book",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "span",
+                },
+                " ",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "name",
+                  },
+                  "ref": null,
+                  "rendered": "name",
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <Dropdown
+                  active={false}
+                  addonType={false}
+                  direction="down"
+                  id="header-kapp-dropdown"
+                  inNavbar={false}
+                  isOpen={false}
+                  nav={false}
+                  setActiveFromChild={false}
+                  toggle={undefined}
+>
+                  <DropdownToggle
+                                    aria-haspopup={true}
+                                    color="secondary"
+                                    nav={true}
+                                    role="button"
+                  >
+                                    <i
+                                                      className="fa fa-fw fa-th"
+                                    />
+                  </DropdownToggle>
+                  <DropdownMenu
+                                    flip={true}
+                                    tag="div"
+                  >
+                                    <Link
+                                                      className="dropdown-item"
+                                                      onClick={undefined}
+                                                      replace={false}
+                                                      to="/"
+                                    >
+                                                      <span
+                                                                        className="fa fa-fw fa-home"
+                                                      />
+                                                      <I18n>
+                                                                        Home
+                                                      </I18n>
+                                    </Link>
+                                    <DropdownItem
+                                                      divider={true}
+                                                      tag="button"
+                                                      toggle={true}
+                                    />
+                                    <BuildKappLink
+                                                      kapp={
+                                                                        Object {
+                                                                                          "name": "Preferred Name",
+                                                                                          "slug": "preferred-slug",
+                                                                                        }
+                                                      }
+                                                      onClick={undefined}
+                                    />
+                  </DropdownMenu>
+</Dropdown>,
+                <Connect(withState(withHandlers(Component))) />,
+                <Connect(withState(withHandlers(Component))) />,
+              ],
+              "className": "nav-item-right",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "active": false,
+                  "addonType": false,
+                  "children": Array [
+                    <DropdownToggle
+                      aria-haspopup={true}
+                      color="secondary"
+                      nav={true}
+                      role="button"
+>
+                      <i
+                                            className="fa fa-fw fa-th"
+                      />
+</DropdownToggle>,
+                    <DropdownMenu
+                      flip={true}
+                      tag="div"
+>
+                      <Link
+                                            className="dropdown-item"
+                                            onClick={undefined}
+                                            replace={false}
+                                            to="/"
+                      >
+                                            <span
+                                                                  className="fa fa-fw fa-home"
+                                            />
+                                            <I18n>
+                                                                  Home
+                                            </I18n>
+                      </Link>
+                      <DropdownItem
+                                            divider={true}
+                                            tag="button"
+                                            toggle={true}
+                      />
+                      <BuildKappLink
+                                            kapp={
+                                                                  Object {
+                                                                                        "name": "Preferred Name",
+                                                                                        "slug": "preferred-slug",
+                                                                                      }
+                                            }
+                                            onClick={undefined}
+                      />
+</DropdownMenu>,
+                  ],
+                  "direction": "down",
+                  "id": "header-kapp-dropdown",
+                  "inNavbar": false,
+                  "isOpen": false,
+                  "nav": false,
+                  "setActiveFromChild": false,
+                  "toggle": undefined,
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "aria-haspopup": true,
+                      "children": <i
+                        className="fa fa-fw fa-th"
+/>,
+                      "color": "secondary",
+                      "nav": true,
+                      "role": "button",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "className": "fa fa-fw fa-th",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "i",
+                    },
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "children": Array [
+                        <Link
+                          className="dropdown-item"
+                          onClick={undefined}
+                          replace={false}
+                          to="/"
+>
+                          <span
+                                                    className="fa fa-fw fa-home"
+                          />
+                          <I18n>
+                                                    Home
+                          </I18n>
+</Link>,
+                        <DropdownItem
+                          divider={true}
+                          tag="button"
+                          toggle={true}
+/>,
+                        Array [
+                          <BuildKappLink
+                            kapp={
+                                                        Object {
+                                                                                    "name": "Preferred Name",
+                                                                                    "slug": "preferred-slug",
+                                                                                  }
+                            }
+                            onClick={undefined}
+/>,
+                        ],
+                        Array [],
+                      ],
+                      "flip": true,
+                      "tag": "div",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "children": Array [
+                            <span
+                              className="fa fa-fw fa-home"
+/>,
+                            <I18n>
+                              Home
+</I18n>,
+                          ],
+                          "className": "dropdown-item",
+                          "onClick": undefined,
+                          "replace": false,
+                          "to": "/",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "className": "fa fa-fw fa-home",
+                            },
+                            "ref": null,
+                            "rendered": null,
+                            "type": "span",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "class",
+                            "props": Object {
+                              "children": "Home",
+                            },
+                            "ref": null,
+                            "rendered": "Home",
+                            "type": [Function],
+                          },
+                        ],
+                        "type": [Function],
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "divider": true,
+                          "tag": "button",
+                          "toggle": true,
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      Object {
+                        "instance": null,
+                        "key": "preferred-slug",
+                        "nodeType": "function",
+                        "props": Object {
+                          "kapp": Object {
+                            "name": "Preferred Name",
+                            "slug": "preferred-slug",
+                          },
+                          "onClick": undefined,
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                    ],
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

@@ -1,0 +1,11 @@
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * kinops Settings
+ * Copyright (c) 2017 - 2019 Kinetic Data, Inc.
+ *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+#root ~ div,
+.package-layout--settings {
+  @import 'datastore';
+  @import 'robots';
+  @import 'temp';
+}
